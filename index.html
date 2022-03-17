@@ -17,7 +17,7 @@
             <h1 class="carwash">Autolavado</h1>
         </div>
          <div class="contenedor">
-            <form action="" method="get" id="miform">
+            <form action="" method="get" id="miform" name="miform">
                 <div class="form-header">
                     <h1 class="form-title">Cliente</h1>
                 </div>
@@ -62,12 +62,15 @@
                 </select>
 
                 <label for="checkbox">Tipo de servicios:<br></label>
-                <input type="checkbox" id="checkbox" value="7000" name="checkbox1">Lavado interior y exterior $7000
-                <input type="checkbox" id="checkbox1" name="checkbox2">Lavado motor $15000
+                <div class="footer"><input type="checkbox" id="checkbox1"  name="checkbox1">Lavado interior y exterior $7000 Sin IVA <br>
+                <input type="checkbox" id="checkbox2" name="checkbox2">Lavado motor $15000 Sin IVA
+                </div>
 
-                <!--  <button type="submit" class="bottom" name="submit">CALCULAR</button> -->
+                <input type="button" class="bottom1" value="CALCULAR"  onclick="calcular();">
+                <p class="total">Total:<span id="el_resultado"></span></p>
                 <button type="submit" class="bottom" name="submit">ENVIAR</button>                   
             </form>
+            <script type="text/javascript" src="assets/js/funcion.js"></script>        
         </div>
     </body>
 </html>    
