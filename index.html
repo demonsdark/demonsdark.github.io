@@ -53,13 +53,24 @@
                 <label for="año" class="form-label">Año:</label>
                 <input name="año" type="number" class="form-input" id="año" min="1980" max="2022" placeholder="Escriba el año del vehiculo">
                
-                <p class="form-label">Revicion tecnica al dia:</p>
-                                
-                <select name="reviciontecnica" class="form-label">
+                <p class="form-label">Revicion tecnica al dia:</p>                               
+                <select name="reviciontecnica" class="form-input">
                     <option selected>Elija una opcion</option>
                     <option>Si</option>
                     <option>No</option>
                 </select>
+
+                <label for="fecha" class="form-label">Encargado del servicio:</label>
+                <select name="encargado" class="form-input">
+                    <option selected>Elija al encargado</option>
+                    <option>Eduardo</option>
+                    <option>Emilio</option>
+                    <option>Patricio</option>
+                    <option>Juan</option>
+                </select>
+                
+                <label for="fecha" class="form-label">Fecha:</label>
+                <input class="form-input" type="date">
 
                 <label for="checkbox">Tipo de servicios:<br></label>
                 <div class="footer"><input type="checkbox" id="checkbox1"  name="checkbox1">Lavado interior y exterior $7000 Sin IVA <br>
