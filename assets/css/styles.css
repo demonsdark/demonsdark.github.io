@@ -1,0 +1,89 @@
+body{
+  background-image: url('https://media.istockphoto.com/photos/automatic-car-wash-in-action-car-wash-concept-automated-technology-picture-id1145028305?k=20&m=1145028305&s=612x612&w=0&h=UF_uFwVon1_P7GtL1vevUB6m7Wz9lcAV3VRWSnEFgG8=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+   width: 600px;
+   background:rgba(9, 104, 104, 0.5);
+   padding:30px;
+   margin:left;
+   margin-top: 10px;
+   border-radius: 4px;
+   font-family: calibri;
+   color: white;
+   box-shadow: 7px 13px 37px #000;
+   margin-bottom: 30px;
+}
+.form-header {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-title {
+  color:rgb(255, 255, 255);
+  font-size: 30px;
+}
+.form-label {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  padding:10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: calibri;
+  font-size: 14px;
+  color:black;
+}
+.form-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  padding:10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: calibri;
+  font-size: 14px;
+  color:black;
+}
+ 
+h1 {
+  color: rgb(255, 255, 255)
+}
+
+#centrado {
+  text-align: center;
+}
+.carwash {
+ color: white;
+ text-align: right; 
+ font-size: 60px;
+ margin:30px;
+
+}
+.responsivo{
+  display: flex;
+  flex-direction: column;
+}
+.bottom{
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: none;
+  color:white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+p {
+  font-family: calibri;
+}
