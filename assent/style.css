@@ -1,0 +1,39 @@
+*{
+    color: rgb(48, 47, 47);
+}
+input{
+    background-image: linear-gradient(rgb(160, 157, 157),rgb(96, 186, 238));
+}
+option{
+    color: white;
+    background-color: grey;
+}
+#valor1, #valor2, #valor3 {
+    display: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] { -moz-appearance:textfield; }
+
+h1, h2, h3, h5, h6{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+}
+label{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+BODY {
+    background-image: linear-gradient(rgb(35, 137, 196), rgb(207, 204, 204));
+}
+#cabeza{
+    color: rgb(59, 58, 58);
+}
+.form{
+    color: rgb(15, 13, 13);
+    font-weight: 500;
+}
