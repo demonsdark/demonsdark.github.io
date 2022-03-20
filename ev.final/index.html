@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="js/bootstrap.bundle.min.js" rel="stylesheet"> -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                alert("Infromativo de covid-19");
+            });
+        </script>
+
+        <title>Covid-19</title>
+    </head>
+    <body id="p1">
+
+        <div class="responsivo">
+        <h1>Consejos para la población acerca de los rumores sobre el nuevo coronavirus (2019-nCoV)</h1>
+        <P>Los micronutrientes, como las vitaminas D y C o el zinc, son fundamentales para el buen funcionamiento del sistema inmunológico y desempeñan un papel vital para la salud y el bienestar nutricional. En la actualidad, no hay ninguna indicación sobre el uso de suplementos de micronutrientes como tratamiento de la COVID-19. 
+
+        <br><br>    La OMS está coordinando los esfuerzos por desarrollar y evaluar medicamentos que permitan tratar la COVID-19.  
+        </P>
+        <br>
+        <p>Se han estudiado los efectos de la hidroxicloroquina y la cloroquina —fármacos empleados para tratar el paludismo, el lupus eritematoso y la artritis reumatoide— como posibles terapias contra la COVID-19. No obstante, los datos actuales indican que no reducen la mortalidad de los pacientes de COVID-19 hospitalizados ni son de ayuda para las personas con síntomas moderados de esta enfermedad*. En general, se considera que es seguro tomar hidroxicloroquina o cloroquina para tratar el paludismo y las enfermedades autoinmunes, pero que si se toman sin estar indicadas y sin supervisión médica pueden ocasionar efectos secundarios graves, por lo que deben evitarse.
+
+            * Es necesario realizar estudios de mayor calado para determinar el valor de estos fármacos en pacientes con formas leves de la enfermedad o como profilaxis previa o posterior a la exposición a la COVID-19.
+            
+            </p>
+        <h3 id="centrado"> ¿Hay que ponerse mascarilla para hacer ejercicio físico?</h3>
+        <br>
+        <p>
+            NO es conveniente llevar mascarilla para hacer ejercicio físico, porque podría reducir la capacidad de respirar con comodidad. Además, la mascarilla se puede humedecer más rápidamente con el sudor, lo cual puede dificultar la respiración y promover el crecimiento de microorganismos. Lo importante para protegerse durante el ejercicio físico es mantenerse al menos a un metro de distancia de las demás personas.
+        </p>
+        </div>
+         <!-- integrando el Modal  -->
+       <div class="modal fade" id="mimodal" tabindex="-1" aria-
+    labelledby="exampleModalLabel"aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal heater">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>    
+                <div class="modal-body">
+                    ¿Qué es la COVID-19?
+                    La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Ambos eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019.
+                    
+                    ¿Comó se originó el coronavirus?
+                    El 31 de diciembre de 2019, la Organización Mundial de la Salud (OMS) recibió reportes de presencia de neumonía, de origen desconocido, en la ciudad de Wuhan, en China. Rápidamente, a principios de enero, las autoridades de este país identificaron la causa como una nueva cepa de coronavirus. La enfermedad ha ido expandiéndose hacia otros continentes como Asia, Europa y América. 
+                    
+                    En cuanto a su comienzo, todavía no se ha confirmado el posible origen animal de la COVID-19.
+                    
+                    ¿Qué síntomas tiene el coronavirus?
+                    Los principales síntomas del virus coronavirus incluyen:
+                    
+                    Síntomas respiratorios (similares a los de un resfriado)
+                    Fiebre (alta temperatura)
+                    Tos seca
+                    Falta de aliento o cansancio
+                    Dificultades respiratorias
+                    En casos más graves, el virus puede causar neumonía o síndrome respiratorio agudo grave (SRAS) que es una forma grave de neumonía, insuficiencia renal y hasta la muerte. En otros casos, algunas personas infectadas no desarrollan ningún síntoma, pero pueden contagiar igualmente al resto de población.
+                    
+                    ¿A quién afecta?
+                    Hay casos confirmados de coronavirus en casi todo del mundo, incluyendo China, Europa (siendo en Italia y España los primeros focos), Irán, Estados Unidos, África, Australia y LATAM. La Organización Mundial de la Salud (OMS) y la Organización Panamericana de la Salud (OPS) han reconocido el estado de pandemia, que supone el desarrollo de esta enfermedad. Es por ello que los viajes se han visto restringidos y muchos países ha cerrado sus fronteras, para tratar de evitar su expansión.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>    
+       </div>
+<!--        Boton del modal    -->  
+       <div class="container py-3">
+           <div class="row">
+               <div class="col text-center">
+                   <button type="button" class="btn btn-info" class="" data-bs-toggle="modal"data-bs-target="#mimodal">
+                       Conoce mas sobre el Covid-19 (haz click aqui)
+                   </button>
+               </div>
+           </div>
+       </div> 
+      <!--  ruta a nuestro script -->
+    <script src="assets/js/miScript.js"></script>
+    <footer>
+        <div class="imagen">
+        <img src="assets/img/blue-covid-banner.webp">
+        </div>
+         <!-- boton del javaScript -->
+        <div class="container py-3">
+            <div class="row">
+                <div class="col text-center">
+                    <button type="button" class="btn btn-info" id="subir" href="#">
+                        Ir arriba
+                    </button>
+                </div>
+            </div>
+        </div> 
+    </footer>
+</html>

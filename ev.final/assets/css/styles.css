@@ -1,0 +1,33 @@
+body {
+  background-color: lightblue;
+} 
+h1 {
+  color: red;
+}
+h3{
+  font-family: Impact, sans-serif;
+  text-decoration: underline;
+}
+#centrado {
+  text-align: center;
+}
+p{
+  font-family: Verdana;
+  font-style:italic;
+  font-size: 20px;
+}
+.responsivo{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen img{
+  width: 400; height: 300px;
+  display: block;
+  margin:auto;
+}
+@media  (max-width:400px){
+  body, .responsivo, .div.imagen img{
+    width: 100%;
+  }
+}
